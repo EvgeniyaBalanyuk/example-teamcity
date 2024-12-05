@@ -30,4 +30,11 @@ public class WelcomerTest {
 	public void welcomerSaysSomething(){
 		assertThat(welcomer.saySome(), containsString("something"));
 	}
+
+	// Новый тест для метода sayHunterMessage
+	@Test
+	public void welcomerSaysHunterMessage() {
+		// Проверяем, что в реплике содержится слово "hunter"
+		assertThat(welcomer.sayHunterMessage(), containsString("hunter"));
+	}
 }
