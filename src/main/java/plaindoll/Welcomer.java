@@ -1,5 +1,6 @@
-import java.util.Random
 package plaindoll;
+
+import java.util.Random;
 
 public class Welcomer{
 	public String sayWelcome() {
