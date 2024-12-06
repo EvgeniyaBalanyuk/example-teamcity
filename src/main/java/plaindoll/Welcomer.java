@@ -19,7 +19,7 @@ public class Welcomer{
 	 // Новый метод, который возвращает произвольную реплику с "hunter"
 	public String sayHunterMessage() {
         String[] messages = {
-            "Hunter, beware the shadows.",
+            "hunter, beware the shadows.",
             "You are a brave hunter, indeed.",
             "Only a true hunter could face such a challenge.",
             "The night is dark, hunter, but you are darker.",
