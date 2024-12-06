@@ -10,7 +10,7 @@
           <contains name="teamcity.build.branch" value="master" />
         </conditions>
         <parameters>
-          <param name="goals" value="clean deploy" />
+          <param name="goals" value="clean package" />
           <param name="localRepoScope" value="agent" />
           <param name="maven.path" value="%teamcity.tool.maven.DEFAULT%" />
           <param name="pomLocation" value="pom.xml" />
