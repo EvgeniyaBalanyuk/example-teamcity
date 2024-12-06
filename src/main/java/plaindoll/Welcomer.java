@@ -1,3 +1,4 @@
+import java.util.Random
 package plaindoll;
 
 public class Welcomer{
@@ -15,7 +16,7 @@ public class Welcomer{
 	}
 
 	 // Новый метод, который возвращает произвольную реплику с "hunter"
-    public String sayHunterMessage() {
+	public String sayHunterMessage() {
         String[] messages = {
             "Hunter, beware the shadows.",
             "You are a brave hunter, indeed.",
